@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "FoodOrdering",
-    "slug": "FoodOrdering",
+    "slug": "foodordering",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -33,10 +33,20 @@
           "resizeMode": "contain",
           "backgroundColor": "#ffffff"
         }
-      ]
+      ],
+      "expo-font",
+      "expo-status-bar",
+      "expo-web-browser"
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "eebf55e2-6b21-44f4-8513-2e6fffa7d7a6"
+      }
+    },
+    "owner": "maverick1947s-team"
   }
 }
